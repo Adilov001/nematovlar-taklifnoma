@@ -19,7 +19,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Finlandica:wght@400;500;600;700&family=Great+Vibes&family=Marck+Script&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <style>
       @font-face {
@@ -203,6 +203,13 @@
         font-size: clamp(44px, 13.5vw, 58px);
         font-weight: 400;
         line-height: 1.1;
+      }
+
+      .hero__names .hero__initial-n {
+        font-family: 'Alex Brush', 'Marck Script', 'Bickham Script Pro', cursive;
+        font-size: 1.14em;
+        font-weight: 400;
+        display: inline-block;
       }
 
       .hero__ampersand {
@@ -840,7 +847,7 @@
           <div class="hero__illustration" aria-hidden="true">
             <img src="./assets/taklifnoma1.png" alt="Bezatish" />
           </div>
-          <h1 class="hero__names" id="hero-title">Ne'matovlar oilasi</h1>
+          <h1 class="hero__names" id="hero-title"><span class="hero__initial-n">N</span>e'matovlar oilasi</h1>
           <p class="hero__date">
             <span class="hero__date-line">Payshanba - Juma</span>
             <span class="hero__date-line"><span class="number-font">27-28</span>-avgust <span class="number-font">2026</span></span>
@@ -1013,9 +1020,6 @@
 
       <!-- Closing Section -->
       <section class="closing-section" aria-labelledby="closing-title">
-        <div class="closing-section__image" aria-hidden="true">
-          <img src="./assets/taklifnoma7.png" alt="Xayrlashuv bezagi" />
-        </div>
         <h2 class="closing-section__title" id="closing-title">
           Sizlarni to'yimizga taklif qilamiz
         </h2>
